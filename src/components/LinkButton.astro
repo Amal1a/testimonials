@@ -6,7 +6,7 @@ const { variant, size, linkTo, text } = Astro.props;
 
 <style>
   .menu {
-    background-color: green;
+    background-color: rgb(201, 29, 13);
     color: white;
     text-decoration: none;
     text-align: center;
@@ -23,5 +23,25 @@ const { variant, size, linkTo, text } = Astro.props;
     width: 100px;
 
     border-radius: 10px;
+  }
+
+  .large {
+    font-size: 3rem;
+    padding: 0.3rem;
+    width: 100px;
+
+    border-radius: 10px;
+  }
+
+  .linkDr {
+    background-color: rgb(255, 0, 191);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .linkDr:hover {
+    background-color: white;
+    color: rgb(19, 0, 128);
   }
 </style>
